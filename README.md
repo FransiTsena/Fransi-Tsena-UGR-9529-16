@@ -4,6 +4,12 @@ Screenshots for each lab assignment in this workspace.
 
 ---
 
+## Profile Card Lab
+
+![Profile Card Demo](screenshot/profile_card_lab.png)
+
+---
+
 ## Bottom Navigation Lab
 
 ![Bottom Navigation Demo](screenshot/bottom_nav_lab.png)
@@ -13,12 +19,6 @@ Screenshots for each lab assignment in this workspace.
 ## Catalog Lab
 
 ![Catalog Demo](screenshot/catalog_lab.png)
-
----
-
-## Profile Card Lab
-
-![Profile Card Demo](screenshot/profile_card_lab.png)
 
 ---
 

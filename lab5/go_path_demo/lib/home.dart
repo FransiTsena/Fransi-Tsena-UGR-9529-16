@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(title: const Text('Home')),
       body: Center(
         child: ElevatedButton(
-          onPressed: () => context.pushNamed('detail'),
+          onPressed: () => context.go('/product/42?filter=popular'),
           child: const Text('Go to Details'),
         ),
       ),

@@ -6,9 +6,11 @@ GoRouter routes = GoRouter(
   routes: [
     GoRoute(path: "/", builder: (context, state) => HomeScreen()),
     GoRoute(
-      path: '/detail',
+      path: '/product/:id',
       builder: (context, state) {
-        return DetailScreen();
+        final id = state.pathParameters['id']!;
+        final filter = state.uri.queryParameters['filter'] ?? 'all';
+        return DetailScreen(id: id, filter: filter);
       },
     ),
   ],

@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:go_demo/routes.dart';
 
 void main() {
-  runApp(const GoNamedApp());
+  runApp(const GoPathApp());
 }
 
-class GoNamedApp extends StatelessWidget {
-  const GoNamedApp({super.key});
+class GoPathApp extends StatelessWidget {
+  const GoPathApp({super.key});
 
   @override
   Widget build(BuildContext context) {

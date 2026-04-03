@@ -8,7 +8,6 @@ void main() {
 class BottomNavApp extends StatelessWidget {
   const BottomNavApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

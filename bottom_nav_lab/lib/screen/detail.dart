@@ -11,8 +11,8 @@ class DetailsScreen extends StatelessWidget {
         child: ElevatedButton(
           child: const Text('Go Back'),
           onPressed: () => Navigator.pop(context),
-        ), // ElevatedButton
-      ), // Center
-    ); // Scaffold
+        ),
+      ),
+    );
   }
 }

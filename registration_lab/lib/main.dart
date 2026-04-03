@@ -12,6 +12,6 @@ class RegistrationApp extends StatelessWidget {
       title: 'Registration Form',
       theme: ThemeData(primarySwatch: Colors.deepPurple),
       home: const RegistrationScreen(),
-    ); // MaterialApp
+    );
   }
 }

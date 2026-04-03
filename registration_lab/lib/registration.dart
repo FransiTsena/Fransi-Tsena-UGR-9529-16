@@ -123,11 +123,11 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
               ElevatedButton(
                 onPressed: _submitForm,
                 child: const Text('Register'),
-              ), // ElevatedButton
+              ),
             ],
-          ), // Column
-        ), // Form
-      ), // Padding
-    ); // Scaffold
+          ),
+        ),
+      ),
+    );
   }
 }

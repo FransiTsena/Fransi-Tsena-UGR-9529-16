@@ -11,7 +11,7 @@ class CatalogApp extends StatelessWidget {
       title: 'Product Catalog',
       theme: ThemeData(primarySwatch: Colors.orange),
       home: CatalogScreen(),
-    ); // MaterialApp
+    );
   }
 }
 
@@ -108,16 +108,16 @@ class CatalogScreen extends StatelessWidget {
                         product.name,
                         style: const TextStyle(fontWeight: FontWeight.bold),
                       ), // Text
-                    ), // Padding
+                    ),
                     Text(product.price),
                     const SizedBox(height: 8),
                   ],
-                ), // Column
-              ), // InkWell
+                ),
+              ),
             ); // Card
           },
-        ), // GridView.builder
-      ), // Padding
-    ); // Scaffold
+        ),
+      ),
+    );
   }
 }

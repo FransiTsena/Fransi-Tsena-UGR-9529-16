@@ -4,7 +4,7 @@ import 'package:go_router/go_router.dart';
 
 GoRouter routes = GoRouter(
   routes: [
-    GoRoute(path: "/", name: 'home', builder: (_, __) => HomeScreen()),
+    GoRoute(path: "/", name: 'home', builder: (_, _) => HomeScreen()),
     GoRoute(
       path: '/detail',
       name: 'detail',
